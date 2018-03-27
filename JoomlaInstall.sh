@@ -45,6 +45,6 @@ yum install zip unzip -y
 cd /var/www/html
 wget https://downloads.joomla.org/cms/joomla3/3-8-6/Joomla_3-8-6-Stable-Full_Package.zip
 unzip Joomla_3-8-6-Stable-Full_Package.zip
-chgrp apache /var/www/html -R
+chown ec2-user:apache /var/www/html -R
 chmod 2775 /var/www/html -R
 rm -f Joomla_3-8-6-Stable-Full_Package.zip
