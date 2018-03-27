@@ -9,3 +9,4 @@ To install Joomla in Amazon Linux AMI copy the code in JoomlaInstall.sh and run 
 Database logins for site will be placed in 
 <b> /home/ec2-user/dblogin.txt </b> please use it to install the site via web browser.
 
+In case of any issues please contact us through <b> https://www.easydeploy.cloud/contact-us/ </b>
